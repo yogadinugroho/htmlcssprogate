@@ -1,0 +1,146 @@
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+    span.menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .header-right a {
+        display: none;
+    }
+
+    .perkenalan {
+        height: 100%;
+        width: 100%;
+    }
+
+    .perkenalan h1 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .perkenalan h5 {
+        display: none; 
+    }
+
+    .container-aboutme {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-aboutme .contents {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-aboutme .contents img {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container-aboutme .contents p {
+        font-size: 12px;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .container-project {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container-project .contents .dojo .icon img {
+        margin: auto;
+        width: 100%;
+        left: 0;
+        margin-bottom: 10px;
+    }
+
+    .container-sns {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .container-contacts {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0%;
+    }
+
+}
+
+/* smartphone */
+@media all and (max-width: 670px) {
+    span.menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .header-right a {
+        display: none;
+    }
+
+    .perkenalan {
+        height: 100%;
+        width: 100%;
+    }
+
+    .perkenalan h1 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .perkenalan h5 {
+        display: none; 
+    }
+
+    .container-aboutme {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-aboutme .contents {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-aboutme .contents img {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container-aboutme .contents p {
+        font-size: 12px;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .container-project {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container-project .contents .dojo .icon img {
+        margin: auto;
+        width: 100%;
+        left: 0;
+        margin-bottom: 10px;
+    }
+
+    .container-sns {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .container-contacts {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0%;
+    }
+}
